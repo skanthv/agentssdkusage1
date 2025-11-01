@@ -10,8 +10,10 @@ AZURE_API_VERSION=in the same path as above, under libraries, go to api document
 
 
 # output
+```
 Hello! How can I assist you today?
 OPENAI_API_KEY is not set, skipping trace export
+```
 
 # pip install 
 python -m venv .venv
