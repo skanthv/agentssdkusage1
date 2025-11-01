@@ -1,5 +1,5 @@
 
-AZURE_OPENAI_ENDPOINT="https://<azure openai resourcename>.openai.azure.com/"
+AZURE_OPENAI_ENDPOINT="https://&lt;azure openai resourcename&gt;.openai.azure.com/"
 go to ai.azure.com/for the azure ai foundry project/overview/libraries/azure openai/ paste azure openai endpoint (not azure ai foundry project endpoint)
 
 AZURE_OPENAI_API_KEY= in the same path as above, copy the api key and paste here
