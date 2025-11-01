@@ -16,5 +16,7 @@ OPENAI_API_KEY is not set, skipping trace export
 ```
 
 # pip install 
+```
 python -m venv .venv
 pip install python-dotenv openai openai-agents 
+```
