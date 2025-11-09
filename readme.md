@@ -20,3 +20,47 @@ OPENAI_API_KEY is not set, skipping trace export
 python -m venv .venv
 pip install python-dotenv openai openai-agents 
 ```
+
+
+
+# POC Scope Simplified
+
+Frontend (React):
+
+A simple file upload UI.
+
+A “Process” button.
+
+Displays 6 stages as you described, each showing either extracted data (for stage 1–2) or dummy static text (for stage 3–6).
+
+Backend (Flask):
+
+One endpoint /process that accepts file upload.
+
+If file is PDF → extracts text using PyPDF2.
+
+Returns a structured JSON with 6 stages.
+
+
+## Backend
+### To create a POC Backend
+create app.py file with code as given.
+
+### To run the backend code
+```
+pip install flask flask-cors PyPDF2
+python app.py
+It’ll start a local server at http://127.0.0.1:5000.
+
+```
+## Frontend
+### To create a POC Frontend
+create App.js with code as given
+
+### To run the front end code
+```
+npx create-react-app po-processor-ui
+cd po-processor-ui
+# replace src/App.js with above code
+npm start
+```
